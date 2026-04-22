@@ -3,6 +3,12 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ai-gastro-hub-berlin.vercel.app"
+        }
+      ],
       "destination": "https://www.ki-gastronomie.com/staedte/berlin/$1",
       "permanent": true
     }
